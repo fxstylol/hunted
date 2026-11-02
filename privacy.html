@@ -3,115 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Hunted</title>
-<meta name="description" content="How Hunted handles your data: no ads, no analytics, no tracking.">
-<meta name="theme-color" content="#0a0a0d">
-<link rel="icon" href="img/icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,900&display=swap" rel="stylesheet">
+<title>Hunted Privacy Policy</title>
 <style>
-:root{--night:#0a0a0d;--bone:#f2ede8;--smoke:#949494;--body:#c9c4bf;--blood:#db121f;--line:rgba(242,237,232,.09);--card:rgba(242,237,232,.04);
-  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif}
-*{box-sizing:border-box}
-body{margin:0;background:var(--night);color:var(--bone);font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-.wrap{max-width:1160px;margin:0 auto;padding:0 16px}
-@media (min-width:720px){.wrap{padding:0 32px}}
-.label{font-family:var(--display);font-style:italic;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:14px}
-nav.top{position:sticky;top:0;z-index:10;background:rgba(10,10,13,.75);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
-nav.top .wrap{display:flex;align-items:center;gap:20px;height:64px}
-.brand{display:flex;align-items:center;gap:10px}
-.brand img{width:34px;height:34px;border-radius:9px}
-.brand span{font-family:var(--display);font-style:italic;font-weight:900;font-size:26px;letter-spacing:.02em}
-.switch{margin-left:auto;display:flex;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px}
-.switch a{padding:7px 14px;border-radius:999px;color:var(--smoke)}
-.switch a[aria-current]{background:var(--blood);color:var(--bone)}
-header.doc{position:relative;overflow:hidden;padding:64px 0 40px;border-bottom:1px solid var(--line)}
-header.doc::before{content:"";position:absolute;inset:-40% -10% auto;height:600px;background:radial-gradient(closest-side at 75% 40%,rgba(219,18,31,.3),transparent 70%);pointer-events:none}
-header.doc .wrap{position:relative}
-h1{font-family:var(--display);font-style:italic;font-weight:900;text-transform:uppercase;line-height:.88;font-size:clamp(56px,10vw,112px);margin:12px 0 18px}
-h1 em{font-style:inherit;color:var(--blood)}
-.date{color:var(--smoke)}
-main .wrap{display:grid;gap:40px;padding-top:48px;padding-bottom:96px}
-@media (min-width:960px){main .wrap{grid-template-columns:260px 1fr;gap:64px}}
-.toc{display:none}
-@media (min-width:960px){.toc{display:block;position:sticky;top:96px;align-self:start}.toc ol{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}.toc a{color:var(--smoke);font-size:14px}.toc a:hover{color:var(--bone)}}
-article{max-width:720px}
-article section{padding:22px 0;border-bottom:1px solid var(--line);scroll-margin-top:84px}
-article section:first-child{padding-top:0}
-h2{font-family:var(--display);font-style:italic;font-weight:900;text-transform:uppercase;font-size:30px;line-height:1;margin:0 0 10px}
-article p{margin:0;color:var(--body)}
-footer{border-top:1px solid var(--line);padding:36px 0 52px;color:var(--smoke);font-size:14px}
-footer .wrap{display:flex;flex-wrap:wrap;gap:22px;align-items:center;justify-content:space-between}
-footer nav{display:flex;gap:22px}
-footer a:hover{color:var(--bone)}
+:root{--bg:#0a0a0d;--fg:#f2ede8;--muted:#949494;--accent:#db121f}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#faf8f6;--fg:#141414;--muted:#5c5c5c;--accent:#b80f1a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 16px 80px}
+h1{font-size:44px;line-height:1;margin:0 0 8px;color:var(--accent);font-weight:900;letter-spacing:-.5px;text-transform:uppercase}
+.date{color:var(--muted);font-size:13px;letter-spacing:1px;text-transform:uppercase;margin-bottom:32px}
+h2{font-size:15px;letter-spacing:1px;text-transform:uppercase;margin:28px 0 6px}
+p{margin:0;color:var(--muted)}
 </style>
 </head>
 <body>
-<nav class="top">
-  <div class="wrap">
-    <a class="brand" href="./" aria-label="Hunted home"><img src="img/icon.png" alt=""><span>HUNTED</span></a>
-    <div class="switch label">
-      <a href="privacy.html" aria-current="page">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </div>
-  </div>
-</nav>
-<header class="doc">
-  <div class="wrap">
-    <div class="label" style="color:var(--blood)">Hunted</div>
-    <h1>Privacy <em>Policy</em></h1>
-    <div class="date label">Last updated 1 November 2026</div>
-  </div>
-</header>
 <main>
-  <div class="wrap">
-    <aside class="toc"><div class="label" style="color:var(--smoke)">On this page</div><ol>
-      <li><a href="#the-short-version">The short version</a></li>
-      <li><a href="#location">Location</a></li>
-      <li><a href="#apple-health">Apple Health</a></li>
-      <li><a href="#steps-and-motion">Steps and motion</a></li>
-      <li><a href="#your-runner-profile">Your runner profile</a></li>
-      <li><a href="#on-your-device">On your device</a></li>
-      <li><a href="#if-you-create-an-account">If you create an account</a></li>
-      <li><a href="#elite-hunter-subscriptions">Elite Hunter subscriptions</a></li>
-      <li><a href="#sharing-your-runs">Sharing your runs</a></li>
-      <li><a href="#who-else-is-involved">Who else is involved</a></li>
-      <li><a href="#how-long-we-keep-it">How long we keep it</a></li>
-      <li><a href="#your-rights">Your rights</a></li>
-      <li><a href="#apple-watch">Apple Watch</a></li>
-      <li><a href="#audio">Audio</a></li>
-      <li><a href="#children">Children</a></li>
-      <li><a href="#changes">Changes</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ol></aside>
-    <article>
-      <section id="the-short-version"><h2>The short version</h2><p>Hunted works without an account, and then your runs never leave your iPhone. If you create an account, a summary of each run is backed up so it counts on the leaderboards. There are no ads, no analytics and no tracking, and your data is never sold.</p></section>
-      <section id="location"><h2>Location</h2><p>While a run is in progress, Hunted uses your location to measure how far and how fast you&#x27;ve gone, including when your screen is locked. Your route stays on your device, and only leaves it if you choose to save the run to Apple Health. Routes are never uploaded to our servers and never included when you share a run.</p></section>
-      <section id="apple-health"><h2>Apple Health</h2><p>With your permission, Hunted saves finished runs to Apple Health as running workouts with their distance and route, and reads your heart rate, active energy, weight and age to break down each run. Health data is never uploaded to our servers, never used for advertising and never shared with anyone. You can change these permissions at any time in the Health app.</p></section>
-      <section id="steps-and-motion"><h2>Steps and motion</h2><p>Hunted counts your steps and cadence with your iPhone&#x27;s or Apple Watch&#x27;s motion sensors during runs. Step counts are stored with your runs.</p></section>
-      <section id="your-runner-profile"><h2>Your runner profile</h2><p>When you first open Hunted you&#x27;re asked what kind of runner you are, your easy pace and what you want from running. Your answers set your difficulty and recommended animals, and are stored only on your device.</p></section>
-      <section id="on-your-device"><h2>On your device</h2><p>Your runs, replays, step timelines, scores, trophies, streaks, runner profile, name, colours and settings are stored on your device. You can export your runs as a CSV file or delete them all in Settings.</p></section>
-      <section id="if-you-create-an-account"><h2>If you create an account</h2><p>We store your email address, the display name you choose, and a summary of each run: when it started, the animal, mode, difficulty, head start, race distance or goal, distance, time, rounds, steps and score. Scores are worked out on our servers. Replays, routes, heart rate and other Health data are not uploaded. You can restore your run summaries to another iPhone by signing in, and runs you delete in the app are deleted from your account too. Your display name and point totals appear on the leaderboards; your individual runs are visible only to you. If you sign in with Apple and choose to hide your email, we only receive Apple&#x27;s private relay address.</p></section>
-      <section id="elite-hunter-subscriptions"><h2>Elite Hunter subscriptions</h2><p>Subscriptions are sold and billed by Apple through the App Store. We never see your name, card or billing details. The app asks Apple on your device whether you have Elite Hunter; that status isn&#x27;t stored on our servers or linked to your Hunted account. Apple&#x27;s privacy policy covers your purchase.</p></section>
-      <section id="sharing-your-runs"><h2>Sharing your runs</h2><p>When you share a run, Hunted draws a picture of it on your device: the animal, the result, distance, time, pace, score and date. It goes only where you send it. We don&#x27;t upload it, and it never includes your route or location. What happens next is up to the app or person you share it with.</p></section>
-      <section id="who-else-is-involved"><h2>Who else is involved</h2><p>Supabase hosts accounts and run summaries in the United States. Apple provides Apple Health, Sign in with Apple and App Store payments. We don&#x27;t use any advertising, analytics or tracking services.</p></section>
-      <section id="how-long-we-keep-it"><h2>How long we keep it</h2><p>Data on your device stays until you delete it or the app. Account data stays until you delete your account in Settings, which removes your profile and every uploaded run from our database straight away.</p></section>
-      <section id="your-rights"><h2>Your rights</h2><p>You can see, export, correct and delete your data from inside the app: export runs as CSV, change your name, delete runs, or delete your account. Depending on where you live (for example under the GDPR in the EU and UK, or in California) you have further rights, including asking for a copy of what we hold. Contact us and we&#x27;ll respond within 30 days.</p></section>
-      <section id="apple-watch"><h2>Apple Watch</h2><p>Runs finished on Apple Watch are sent to your iPhone and handled exactly like runs recorded on the phone.</p></section>
-      <section id="audio"><h2>Audio</h2><p>The heartbeat sound is generated on your device. Hunted doesn&#x27;t use your microphone.</p></section>
-      <section id="children"><h2>Children</h2><p>Hunted isn&#x27;t directed at children under 13, and we don&#x27;t knowingly collect their data.</p></section>
-      <section id="changes"><h2>Changes</h2><p>If this policy changes we&#x27;ll update the date at the top and tell you in the app before the change matters to you.</p></section>
-      <section id="contact"><h2>Contact</h2><p>Questions or requests about your data: use the support link on Hunted&#x27;s App Store page.</p></section>
-    </article>
-  </div>
+<h1>Privacy Policy</h1>
+<div class="date">Hunted · Last updated 1 November 2026</div>
+<h2>The short version</h2>
+<p>Hunted works without an account, and then your runs never leave your iPhone. If you create an account, a summary of each run is backed up so it counts on the leaderboards. There are no ads, no analytics and no tracking, and your data is never sold.</p>
+<h2>Location</h2>
+<p>While a run is in progress, Hunted uses your location to measure how far and how fast you&#x27;ve gone, including when your screen is locked. Your route stays on your device, and only leaves it if you choose to save the run to Apple Health. Routes are never uploaded to our servers and never included when you share a run.</p>
+<h2>Apple Health</h2>
+<p>With your permission, Hunted saves finished runs to Apple Health as running workouts with their distance and route, and reads your heart rate, active energy, weight and age to break down each run. Health data is never uploaded to our servers, never used for advertising and never shared with anyone. You can change these permissions at any time in the Health app.</p>
+<h2>Steps and motion</h2>
+<p>Hunted counts your steps and cadence with your iPhone&#x27;s or Apple Watch&#x27;s motion sensors during runs. Step counts are stored with your runs.</p>
+<h2>Your runner profile</h2>
+<p>When you first open Hunted you&#x27;re asked what kind of runner you are, your easy pace and what you want from running. Your answers set your difficulty and recommended animals, and are stored only on your device.</p>
+<h2>On your device</h2>
+<p>Your runs, replays, step timelines, scores, trophies, streaks, runner profile, name, colours and settings are stored on your device. You can export your runs as a CSV file or delete them all in Settings.</p>
+<h2>If you create an account</h2>
+<p>We store your email address, the display name you choose, and a summary of each run: when it started, the animal, mode, difficulty, head start, race distance or goal, distance, time, rounds, steps and score. Scores are worked out on our servers. Replays, routes, heart rate and other Health data are not uploaded. You can restore your run summaries to another iPhone by signing in, and runs you delete in the app are deleted from your account too. Your display name and point totals appear on the leaderboards; your individual runs are visible only to you. If you sign in with Apple and choose to hide your email, we only receive Apple&#x27;s private relay address.</p>
+<h2>Elite Hunter subscriptions</h2>
+<p>Subscriptions are sold and billed by Apple through the App Store. We never see your name, card or billing details. The app asks Apple on your device whether you have Elite Hunter; that status isn&#x27;t stored on our servers or linked to your Hunted account. Apple&#x27;s privacy policy covers your purchase.</p>
+<h2>Sharing your runs</h2>
+<p>When you share a run, Hunted draws a picture of it on your device: the animal, the result, distance, time, pace, score and date. It goes only where you send it. We don&#x27;t upload it, and it never includes your route or location. What happens next is up to the app or person you share it with.</p>
+<h2>Who else is involved</h2>
+<p>Supabase hosts accounts and run summaries in the United States. Apple provides Apple Health, Sign in with Apple and App Store payments. We don&#x27;t use any advertising, analytics or tracking services.</p>
+<h2>How long we keep it</h2>
+<p>Data on your device stays until you delete it or the app. Account data stays until you delete your account in Settings, which removes your profile and every uploaded run from our database straight away.</p>
+<h2>Your rights</h2>
+<p>You can see, export, correct and delete your data from inside the app: export runs as CSV, change your name, delete runs, or delete your account. Depending on where you live (for example under the GDPR in the EU and UK, or in California) you have further rights, including asking for a copy of what we hold. Contact us and we&#x27;ll respond within 30 days.</p>
+<h2>Apple Watch</h2>
+<p>Runs finished on Apple Watch are sent to your iPhone and handled exactly like runs recorded on the phone.</p>
+<h2>Audio</h2>
+<p>The heartbeat sound is generated on your device. Hunted doesn&#x27;t use your microphone.</p>
+<h2>Children</h2>
+<p>Hunted isn&#x27;t directed at children under 13, and we don&#x27;t knowingly collect their data.</p>
+<h2>Changes</h2>
+<p>If this policy changes we&#x27;ll update the date at the top and tell you in the app before the change matters to you.</p>
+<h2>Contact</h2>
+<p>Questions or requests about your data: use the support link on Hunted&#x27;s App Store page.</p>
 </main>
-<footer>
-  <div class="wrap">
-    <a class="brand" href="./"><img src="img/icon.png" alt=""><span>HUNTED</span></a>
-    <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
-  </div>
-</footer>
 </body>
 </html>
